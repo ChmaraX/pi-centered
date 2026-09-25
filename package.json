@@ -1,6 +1,6 @@
 {
   "name": "pi-centered",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Center Pi's chat in a readable column on wide terminals. Wide Mermaid diagrams still break out to full size.",
   "keywords": [
     "pi-package",
