@@ -5,7 +5,8 @@
   "bump-minor-pre-major": true,
   "packages": {
     ".": {
-      "package-name": "pi-centered"
+      "package-name": "pi-centered",
+      "initial-version": "0.1.0"
     }
   }
 }
