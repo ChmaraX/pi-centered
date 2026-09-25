@@ -1,7 +1,6 @@
 {
   "name": "pi-centered",
   "version": "0.0.0",
-  "private": true,
   "description": "Center Pi's chat in a readable column on wide terminals. Wide Mermaid diagrams still break out to full size.",
   "keywords": [
     "pi-package",
@@ -19,8 +18,15 @@
     "type": "git",
     "url": "git+https://github.com/ChmaraX/pi-centered.git"
   },
+  "files": [
+    "src",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
   "type": "module",
   "pi": {
+    "image": "https://raw.githubusercontent.com/ChmaraX/pi-centered/main/assets/screenshot.png",
     "extensions": [
       "./src/index.ts"
     ]
@@ -38,5 +44,8 @@
     "@earendil-works/pi-tui": "0.87.1",
     "@types/node": "^24.13.6",
     "typescript": "^7.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

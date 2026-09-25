@@ -1,7 +1,7 @@
 # pi-centered
 
 [![CI](https://github.com/ChmaraX/pi-centered/actions/workflows/ci.yml/badge.svg)](https://github.com/ChmaraX/pi-centered/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/ChmaraX/pi-centered)](https://github.com/ChmaraX/pi-centered/releases/latest)
+[![npm](https://img.shields.io/npm/v/pi-centered)](https://www.npmjs.com/package/pi-centered)
 [![License](https://img.shields.io/github/license/ChmaraX/pi-centered)](LICENSE)
 
 <p align="center">
@@ -15,11 +15,12 @@
 ## Install
 
 ```bash
-pi install git:github.com/ChmaraX/pi-centered
+pi install npm:pi-centered
 ```
 
-Restart Pi. Pi shows a notice when a new version lands; update with
-`pi update --extensions`.
+Restart Pi. Pi shows a notice when a new release lands; update with
+`pi update --extensions`. To follow `main` instead of releases, install
+`git:github.com/ChmaraX/pi-centered`.
 
 ## Usage
 
@@ -51,7 +52,7 @@ pi install "$PWD"
 and checks where every line lands (needs Python 3; screens go to
 `e2e/artifacts/`). `./assets/screenshots.sh` renders framed screenshots into `assets/` with [VHS](https://github.com/charmbracelet/vhs). PR titles follow
 [Conventional Commits](https://www.conventionalcommits.org/); release-please
-writes the changelog and tags releases.
+writes the changelog, tags releases and publishes to npm.
 
 ## License
 
