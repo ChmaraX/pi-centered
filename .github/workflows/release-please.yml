@@ -40,7 +40,10 @@ jobs:
       - id: version
         run: |
           v=$(node -p "require('./package.json').version")
-          if npm view "pi-centered@$v" version >/dev/null 2>&1; then
+          if ! git ls-remote --exit-code --tags origin "refs/tags/v$v" >/dev/null; then
+            echo "v$v is not a release tag; nothing to publish"
+            echo "published=true" >> "$GITHUB_OUTPUT"
+          elif npm view "pi-centered@$v" version >/dev/null 2>&1; then
             echo "pi-centered@$v is already on npm; skipping"
             echo "published=true" >> "$GITHUB_OUTPUT"
           fi
