@@ -10,8 +10,7 @@
 
 **[Pi](https://pi.dev), centered.** A readable chat column on wide terminals.
 
-<!-- TODO: screenshot -->
-<p align="center"><img src="assets/screenshot.png" alt="Pi chat in a centered column on a wide terminal" width="900"></p>
+<img width="1356" height="814" alt="pi-centered" src="https://github.com/user-attachments/assets/96adf223-6e3c-4722-a982-89d476c86778" />
 
 ## Install
 
@@ -35,8 +34,7 @@ it for one launch with `PI_CENTERED_WIDTH=90 pi`.
 
 ## Wide diagrams
 
-<!-- TODO: screenshot -->
-<p align="center"><img src="assets/wide-diagram.png" alt="A wide Mermaid diagram breaking out of the centered column" width="900"></p>
+<img width="1635" height="870" alt="image" src="https://github.com/user-attachments/assets/ca6d6bbd-1b4f-449a-b682-f75bfcc325e6" />
 
 Mermaid diagrams wider than the column break out to their full width, so Pi
 can still draw them. The text around them stays in the column.
