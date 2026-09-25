@@ -49,7 +49,7 @@ pi install "$PWD"
 
 `npm run check` type-checks. `npm run e2e` runs real Pi in a virtual terminal
 and checks where every line lands (needs Python 3; screens go to
-`e2e/artifacts/`). PR titles follow
+`e2e/artifacts/`). `./assets/screenshots.sh` renders framed screenshots into `assets/` with [VHS](https://github.com/charmbracelet/vhs). PR titles follow
 [Conventional Commits](https://www.conventionalcommits.org/); release-please
 writes the changelog and tags releases.
 
