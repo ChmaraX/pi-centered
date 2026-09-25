@@ -3,3 +3,4 @@ e2e/artifacts/
 *.tgz
 .DS_Store
 assets/*.png
+!assets/gallery.png

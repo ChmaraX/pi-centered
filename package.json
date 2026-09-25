@@ -26,7 +26,7 @@
   ],
   "type": "module",
   "pi": {
-    "image": "https://github.com/user-attachments/assets/96adf223-6e3c-4722-a982-89d476c86778",
+    "image": "https://raw.githubusercontent.com/ChmaraX/pi-centered/main/assets/gallery.png",
     "extensions": [
       "./src/index.ts"
     ]
