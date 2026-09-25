@@ -1,19 +1,29 @@
 {
   "name": "pi-centered",
   "version": "0.0.0",
+  "private": true,
   "description": "Center Pi's chat in a readable column on wide terminals. Wide Mermaid diagrams still break out to full size.",
-  "keywords": ["pi-package", "pi-extension", "pi", "pi-coding-agent", "tui", "layout", "max-width", "mermaid"],
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi",
+    "pi-coding-agent",
+    "tui",
+    "layout",
+    "max-width",
+    "mermaid"
+  ],
   "license": "MIT",
   "author": "Adam Chmara",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChmaraX/pi-centered.git"
   },
-  "homepage": "https://github.com/ChmaraX/pi-centered#readme",
   "type": "module",
-  "files": ["src", "README.md", "CHANGELOG.md", "LICENSE"],
   "pi": {
-    "extensions": ["./src/index.ts"]
+    "extensions": [
+      "./src/index.ts"
+    ]
   },
   "scripts": {
     "check": "tsc --noEmit",
